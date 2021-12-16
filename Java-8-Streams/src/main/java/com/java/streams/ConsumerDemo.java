@@ -11,7 +11,7 @@ import com.java.streams.practice.Operation;
 public class ConsumerDemo {
 
 	public static void main(String[] args) {
-		
+		System.out.println("Main");
 		Consumer<String> c= (t)-> { 
 			System.out.println("Print :"+ t );
 		};
